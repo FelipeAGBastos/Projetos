@@ -1,0 +1,38 @@
+package conexao;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class Conexao {
+
+   private static final String url = "jdbc:mysql://localhost:3306/sis_estoque";
+   private static final String user = "root";
+   private static final String password = "Root1234"; // Corrigido
+
+    private static Connection conn;
+
+    public static Connection getConexao(){
+
+        try {
+            // --- ADICIONE ESTA LINHA ---
+            Class.forName("com.mysql.cj.jdbc.Driver"); // Garante que o driver seja carregado
+
+            if (conn==null) {
+                conn=DriverManager.getConnection(url, user, password);
+                System.out.println("Conexão com o banco de dados estabelecida com sucesso!");
+                return conn;
+            }else{
+                return conn;
+            }
+        } catch (ClassNotFoundException e) {
+            System.err.println("Erro: Driver JDBC MySQL não encontrado. Verifique se o JAR está no classpath e o nome da classe está correto.");
+            e.printStackTrace();
+            return null;
+        }
+        catch (SQLException e) {
+            System.err.println("Erro ao conectar ao banco de dados: " + e.getMessage());
+            e.printStackTrace();
+            return null;
+        }
+    }
+}
