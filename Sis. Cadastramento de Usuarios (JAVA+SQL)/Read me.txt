@@ -1,11 +1,10 @@
 👤 Sistema de Cadastramento de Usuários em Java com MySQL
+
 🔍 Descrição
 Este projeto consiste em um sistema de terminal simples, porém funcional, para cadastrar e remover usuários em um banco de dados MySQL, utilizando a linguagem Java e a biblioteca JDBC para realizar a conexão.
 
 🚀 Funcionalidades
 ✅ Cadastro de usuários (nome, CPF, telefone)
-
-✅ Remoção de usuários por ID
 
 ✅ Armazenamento em banco de dados relacional (MySQL)
 
@@ -19,9 +18,6 @@ JDBC	Conector Java ↔ MySQL
 SQL	Criação e manipulação das tabelas
 
 🧱 Estrutura do Projeto
-css
-Copiar
-Editar
 📁 src/
  ┣ 📁 DAO/
  ┃ ┗ UsuarioDAO.java
@@ -30,22 +26,26 @@ Editar
  ┣ 📁 conexao/
  ┃ ┗ Conexao.java
  ┣ App.java
+
+
 🧪 Como executar
+
+baixe o arquivo .sql e abra no MySQL ou:
+
 Configure o banco de dados:
-
 Crie um banco chamado usuarios_cad
-
 Execute a SQL com a tabela USUARIO_CAD
 
-sql
-Copiar
-Editar
 CREATE TABLE USUARIO_CAD (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100),
     cpf VARCHAR(14),
     tel VARCHAR(20)
 );
+
+Baixe o arquivo no Visual Studio Code ou outros e em "Codigo Cad" vá em "Conexão.JAVA" e Coloque as informaçoes de URL, USER E PASSWWORD (caso tenha mudado)
+Vá em "APP.java" e alteres os parametros desejados para o registro que deseja em seu banco de dados e rode o codigo.
+
 
 🧠 Aprendizados
 Conexão de sistemas Java com banco de dados via JDBC
@@ -62,5 +62,5 @@ Modelagem de entidade Usuario com encapsulamento (get/set)
 Felipe Alves Gomes Bastos
 Estudante de Sistemas de Informação na FIAP
 Apaixonado por dados, software e soluções inteligentes
-Contato: [Seu LinkedIn aqui]
+Contato: [https://www.linkedin.com/in/felipe-bastos-866629257/]
 
