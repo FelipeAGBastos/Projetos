@@ -1,0 +1,92 @@
+📦 Sistema de Cadastro e Controle de Produtos com Java, MySQL e Power BI
+🔍 Descrição
+Este projeto consiste em um sistema simples, mas funcional, de cadastro e remoção de produtos, desenvolvido em Java com conexão a um banco de dados MySQL, e complementado com um dashboard interativo no Power BI para visualização dos dados.
+
+🚀 Funcionalidades
+✅ Cadastro de produtos (nome, unidade, preço, data)
+
+✅ Remoção de produtos por ID
+
+✅ Armazenamento das informações em um banco MySQL
+
+✅ Integração com Power BI para visualização dos dados em tempo real
+
+✅ Interface de terminal orientada a menus
+
+🛠️ Tecnologias utilizadas
+Tecnologia	                                        Função
+Java	                                   Lógica do sistema e conexão com banco
+MySQL	                                   Armazenamento dos dados
+JDBC	                                   Driver de conexão entre Java e MySQL
+Power BI	                           Visualização gráfica dos dados
+SQL	                                   Criação e manipulação das tabelas
+
+🧪 Como executar
+Configure o MySQL:
+
+Crie um banco chamado sis_estoque
+
+Execute a SQL com a tabela ESTOQUEL (com campos como id_produto, tipo_produto, unidade_produto, etc.)
+
+Compile os arquivos Java:
+
+bash
+Copiar
+Editar
+javac -cp .;lib/mysql-connector-j-8.0.xx.jar src/*.java
+Execute a aplicação:
+
+bash
+Copiar
+Editar
+java -cp .;lib/mysql-connector-j-8.0.xx.jar App
+Abra o Power BI:
+
+Conecte ao banco MySQL local
+
+Crie relatórios e dashboards interativos com base na tabela ESTOQUEL
+
+📊 Dashboard Power BI
+O dashboard exibe métricas como:
+
+📦 Total de produtos cadastrados
+
+📈 Média de preços
+
+🕒 Produtos por data de cadastro
+
+📊 Distribuição por tipo de produto
+
+💡 Ideal para empresas que desejam controlar estoque com visualização em tempo real.
+
+📁 Base de dados
+Exemplo de tabela:
+
+CREATE TABLE ESTOQUEL (
+    id_produto INT PRIMARY KEY AUTO_INCREMENT,
+    tipo_produto VARCHAR(100),
+    unidade_produto INT,
+    preco_unidade DOUBLE,
+    data_cadastro VARCHAR(10)
+);
+
+
+🧠 Aprendizados
+
+
+Conexão e manipulação de banco de dados com Java
+
+Aplicação de boas práticas com JDBC
+
+Integração de sistemas back-end com ferramentas de BI
+
+Lógica de menus e estruturas condicionais no terminal
+
+
+
+📌 Autor
+Felipe Alves Gomes Bastos
+Estudante de Sistemas de Informação na FIAP
+Especial interesse por dados, tecnologia e sistemas ERP
+Contato: [https://www.linkedin.com/in/felipe-bastos-866629257/]
+
