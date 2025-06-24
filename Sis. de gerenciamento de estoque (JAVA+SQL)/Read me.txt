@@ -15,36 +15,23 @@ Este projeto consiste em um sistema simples, mas funcional, de cadastro e remoç
 
 🛠️ Tecnologias utilizadas
 Tecnologia	                                        Função
-Java	                                   Lógica do sistema e conexão com banco
-MySQL	                                   Armazenamento dos dados
-JDBC	                                   Driver de conexão entre Java e MySQL
+Java	                               Lógica do sistema e conexão com banco
+MySQL	                               Armazenamento dos dados
+JDBC	                               Driver de conexão entre Java e MySQL
 Power BI	                           Visualização gráfica dos dados
 SQL	                                   Criação e manipulação das tabelas
 
-🧪 Como executar
-Configure o MySQL:
+🧪 Como executar:
 
 Crie um banco chamado sis_estoque
-
 Execute a SQL com a tabela ESTOQUEL (com campos como id_produto, tipo_produto, unidade_produto, etc.)
 
-Compile os arquivos Java:
+Baixe a pasta "Codigo" e arraste para o visual studio code
+Em Conexão.JAVA coloque a URL, USER e PASSWORD do seu banco de dados (Caso tenha mudado a porta, usuario ou a senha)
+logo apos vá em "App.JAVA"
 
-bash
-Copiar
-Editar
-javac -cp .;lib/mysql-connector-j-8.0.xx.jar src/*.java
-Execute a aplicação:
-
-bash
-Copiar
-Editar
-java -cp .;lib/mysql-connector-j-8.0.xx.jar App
-Abra o Power BI:
-
-Conecte ao banco MySQL local
-
-Crie relatórios e dashboards interativos com base na tabela ESTOQUEL
+Abra o Power BI e conecte o relario com o MySQL
+Faça a coneção normalmente seguindo os passos 
 
 📊 Dashboard Power BI
 O dashboard exibe métricas como:
@@ -71,8 +58,8 @@ CREATE TABLE ESTOQUEL (
 );
 
 
-🧠 Aprendizados
 
+🧠 Aprendizados
 
 Conexão e manipulação de banco de dados com Java
 
