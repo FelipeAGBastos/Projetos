@@ -1,0 +1,58 @@
+Análise de Vendas - Dashboard com Power BI e MySQL
+Este projeto consiste na criação de um dashboard interativo no Power BI para a análise de dados de vendas. O objetivo é fornecer uma visão clara e consolidada sobre o desempenho comercial, identificando tendências, principais produtos, clientes e regiões. Os dados para este painel são extraídos e processados de um banco de dados MySQL.
+
+📜 Visão Geral do Projeto
+O dashboard centraliza as informações de vendas mais importantes, permitindo que gestores e analistas tomem decisões mais estratégicas e baseadas em dados. Através de visuais intuitivos, é possível monitorar o faturamento, identificar padrões sazonais e entender a contribuição de diferentes segmentos de negócio e regiões geográficas para o resultado geral.
+
+🚀 Tecnologias Utilizadas
+Visualização de Dados: Microsoft Power BI
+Banco de Dados: MySQL
+Linguagem de Consulta: SQL
+Modelagem de Dados: Power Query e DAX (Data Analysis Expressions)
+
+📊 Componentes do Dashboard
+O painel de "Análise de Vendas" é composto pelos seguintes visuais e KPIs:
+Faturamento Total (Gauge):
+Um medidor que destaca o indicador de performance chave (KPI) mais importante: o faturamento total, que no período analisado foi de R$ 1,95 Milhão.
+Desempenho Anual (Gráfico de Área):
+Mostra a evolução das vendas ao longo dos anos (2021-2023). No gráfico, é possível observar um pico de vendas em 2022, seguido por uma queda em 2023, indicando a necessidade de uma análise mais aprofundada sobre as causas.
+Vendas por Segmento (Gráfico de Barras):
+Compara o valor total de vendas entre os diferentes segmentos de atuação. O segmento de Varejo é o principal contribuidor para o faturamento, seguido por Indústria e Serviços.
+Vendas por Região (Gráfico de Barras):
+Exibe o desempenho de vendas nas diferentes regiões do país. As regiões Sul e Sudeste são as que apresentam maior volume de faturamento.
+Quantidade por Produto (Gráfico de Pizza):
+Detalha a participação de cada produto na quantidade total de itens vendidos. O Produto 2 e o Produto 3 são os líderes em vendas.
+Quantidade por Empresa (Gráfico de Pizza):
+Apresenta a distribuição da quantidade de produtos vendidos por empresa cliente. A Empresa A e a Empresa B são as maiores compradoras em volume.
+
+
+⚙️ Estrutura e Instalação
+Para replicar ou utilizar este projeto, siga os passos abaixo:
+
+Pré-requisitos
+Microsoft Power BI Desktop instalado.
+Acesso a um servidor de banco de dados MySQL.
+MySQL Connector/NET instalado para permitir a conexão do Power BI com o MySQL.
+
+Configuração
+Banco de Dados:
+Restaure o backup do banco de dados (.sql) fornecido no seu servidor MySQL ou crie a estrutura de tabelas (vendas, produtos, clientes, regiões, etc.) e popule com os dados.
+
+Conexão no Power BI:
+Abra o arquivo .pbix do projeto no Power BI Desktop.
+Vá em Transformar Dados para abrir o Power Query Editor.
+Na seção de Configurações da fonte de dados, edite as credenciais para apontar para o seu servidor MySQL (servidor, banco de dados, usuário e senha).
+Clique em Atualizar na página inicial para carregar os dados do seu banco de dados para o modelo.
+
+💡 Principais Insights (Análise dos Dados)
+A partir do dashboard, é possível extrair as seguintes conclusões iniciais:
+Ponto de Atenção: A queda abrupta nas vendas de 2022 para 2023 requer uma investigação detalhada. Fatores como mudanças no mercado, concorrência ou problemas internos podem ser a causa.
+Foco Estratégico: Os segmentos de Varejo e Indústria, juntamente com as regiões Sul e Sudeste, representam as maiores fontes de receita e devem ser priorizados em campanhas e estratégias de vendas.
+Gestão de Portfólio: O forte desempenho dos Produtos 2 e 3 sugere que eles são os carros-chefe da empresa. Estratégias de cross-selling com produtos de menor saída podem ser exploradas.
+Relacionamento com Clientes: As Empresas A e B são clientes-chave. É fundamental garantir a satisfação e a retenção desses parceiros.
+
+👨‍💻 Autor
+[Felipe Bastos]
+Email: [Felipeagbastos1@gmail.com]
+LinkedIn: [https://www.linkedin.com/in/felipe-bastos-866629257/]
+
