@@ -1,0 +1,39 @@
+# 🏦 Sistema Bancário
+
+## 📋 Descrição
+Sistema bancário desenvolvido em **Java** com integração **MySQL** que permite a criação e gerenciamento de contas, realização de depósitos, saques, transferências e consulta de saldo, simulando funcionalidades básicas de um banco.
+
+## 🚀 Funcionalidades
+- 📝 Cadastro de usuários e contas
+- 💰 Depósito em conta
+- 🏧 Saque com verificação de saldo
+- 🔄 Transferência entre contas
+- 📊 Consulta de saldo e extrato
+- 🖥️ Interface de linha de comando (CLI) simples e intuitiva
+
+## 🛠️ Tecnologias Utilizadas
+- ☕ Java (versão X.X)
+- 🐬 MySQL (versão X.X)
+- 🔗 JDBC para conexão com banco de dados
+- 📦 Maven/Gradle (se usar algum gerenciador de dependências)
+- 🐙 Git para controle de versão
+
+## ⚙️ Como Rodar o Projeto
+
+### ✔️ Pré-requisitos
+- 🖥️ JDK instalado (versão X.X ou superior)
+- 🐬 MySQL instalado e configurado
+- 🛠️ IDE recomendada: IntelliJ IDEA, Eclipse, VS Code, etc.
+
+### 🔄 Passos
+1. Clone o repositório:
+
+2. Configure o banco de dados MySQL:
+
+📂 Crie o banco de dados 
+
+📥 Importe o script SQL disponível na pasta "Dados My SQL"
+
+👤 Autor
+Felipe Bastos
+Estudante da fiap
