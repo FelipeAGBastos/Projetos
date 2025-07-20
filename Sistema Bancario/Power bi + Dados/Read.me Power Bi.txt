@@ -1,0 +1,5 @@
+Foi utilizado o arquivo .xlsx, pois até o presente momento não foi inserido dados suficiente para a analise no banco de dados 
+e para uma melhor explicação e uma melhor apresentação das minhas capacidades foi utilizada uma planilha excel. Futuramente
+pretendo assim como meu outro projeto logar no Banco de dados
+
+obs: todas as informações da planilha referente a campos da tabela são as mesmas dos banco de dados.
