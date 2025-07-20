@@ -1,39 +1,63 @@
-# 🏦 Sistema Bancário
+Simulador de Sistema Bancário Completo
 
-## 📋 Descrição
-Sistema bancário desenvolvido em **Java** com integração **MySQL** que permite a criação e gerenciamento de contas, realização de depósitos, saques, transferências e consulta de saldo, simulando funcionalidades básicas de um banco.
+Descrição
+Projeto educacional desenvolvido com foco no setor financeiro, simula as principais operações de um sistema bancário utilizando Java e MySQL. A aplicação permite o gerenciamento completo de usuários e contas, com funcionalidades como cadastro, movimentações financeiras, pagamentos e controle de saldo.
 
-## 🚀 Funcionalidades
-- 📝 Cadastro de usuários e contas
-- 💰 Depósito em conta
-- 🏧 Saque com verificação de saldo
-- 🔄 Transferência entre contas
-- 📊 Consulta de saldo e extrato
-- 🖥️ Interface de linha de comando (CLI) simples e intuitiva
+Este projeto foi pensado para demonstrar conhecimentos técnicos aplicados à realidade de instituições financeiras, com ênfase em boas práticas de programação, organização de dados e integração com banco de dados.
 
-## 🛠️ Tecnologias Utilizadas
-- ☕ Java (versão X.X)
-- 🐬 MySQL (versão X.X)
-- 🔗 JDBC para conexão com banco de dados
-- 📦 Maven/Gradle (se usar algum gerenciador de dependências)
-- 🐙 Git para controle de versão
 
-## ⚙️ Como Rodar o Projeto
+Funcionalidades
+Cadastro de usuários e contas bancárias
 
-### ✔️ Pré-requisitos
-- 🖥️ JDK instalado (versão X.X ou superior)
-- 🐬 MySQL instalado e configurado
-- 🛠️ IDE recomendada: IntelliJ IDEA, Eclipse, VS Code, etc.
+Operações de depósito e saque com validação de saldo
 
-### 🔄 Passos
-1. Clone o repositório:
+Pagamento de contas vinculado a contas específicas
 
-2. Configure o banco de dados MySQL:
+Consulta de saldo com exibição de dados em tempo real
 
-📂 Crie o banco de dados 
+Validação de login com autenticação simples
 
-📥 Importe o script SQL disponível na pasta "Dados My SQL"
+Interface em linha de comando (CLI), com fluxo de navegação intuitivo
 
-👤 Autor
+
+
+Tecnologias Utilizadas
+Java (JDK 17+)
+
+MySQL (banco de dados relacional)
+
+JDBC (Java Database Connectivity)
+
+Padrão DAO (Data Access Object)
+
+Paradigma de Programação Orientada a Objetos
+
+Git e GitHub 
+
+
+
+
+Como Executar
+Pré-requisitos
+Java JDK instalado
+MySQL instalado e configurado
+Conector JDBC MySQL disponível no classpath
+IDE para execução (VS Code, IntelliJ, Eclipse etc.)
+
+
+Passos
+Clone o repositório:
+
+Crie o banco de dados sistema_bancario no MySQL
+
+Execute o script SQL disponível na pasta Dados MySQL
+
+Compile e execute o projeto a partir do arquivo App.java
+
+Acesse o menu principal e navegue pelas funcionalidades
+
+Autor
 Felipe Bastos
-Estudante da fiap
+Estudante de Sistemas de Informação - FIAP
+Foco em Análise de Dados, Automação de Processos e Sistemas Corporativos
+LinkedIn: https://www.linkedin.com/in/felipe-bastos-866629257/
