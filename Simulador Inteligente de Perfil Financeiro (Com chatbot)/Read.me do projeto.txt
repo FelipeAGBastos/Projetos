@@ -1,0 +1,63 @@
+💼 Simulador Inteligente de Perfil Financeiro
+Projeto desenvolvido para aplicar conceitos de tecnologia ao setor bancário, simulando a análise de perfil financeiro e atendimento digital ao cliente.
+🧠 Sobre o Projeto
+Este projeto em Java tem como objetivo simular, de forma inteligente e interativa, a análise de perfil financeiro de clientes bancários, utilizando dados como:
+
+Idade
+
+Renda mensal
+
+Número de dependentes
+
+Objetivo financeiro
+
+Score simulado
+
+Com base nesses dados, o sistema classifica o cliente em um perfil (Conservador, Moderado ou Arrojado) e recomenda produtos adequados como CDBs, Tesouro Direto, Ações, FIIs e mais.
+
+O projeto também conta com um chatbot interativo que responde a perguntas frequentes sobre produtos e conceitos do mercado financeiro, como:
+"O que é CDB?", "Qual a taxa de juros?", "O que é liquidez diária?", entre outros.
+
+🧩 Funcionalidades
+✅ Menu interativo no terminal
+✅ Classificação de perfil de investidor com base em múltiplos critérios
+✅ Recomendações personalizadas de produtos bancários
+✅ Score de perfil de 0 a 100
+✅ Chatbot com respostas automatizadas
+✅ Simulação de atendimento bancário básico
+
+🚀 Tecnologias Utilizadas
+Java (JDK 17)
+
+Lógica condicional e estruturas de repetição
+
+Scanner / Entrada de dados via terminal
+
+Simulação de atendimento com Chatbot (básico)
+
+🎯 Objetivo
+Demonstrar, de forma prática e contextualizada, minha capacidade de:
+
+Resolver problemas reais do setor bancário usando tecnologia
+
+Aplicar conceitos de lógica, UX em terminal e atendimento virtual
+
+Traduzir conhecimento de investimentos e finanças em soluções digitais
+
+Este projeto foi desenvolvido como parte do meu portfólio com foco em oportunidades no setor bancário e financeiro, mostrando minha afinidade com o segmento e minha dedicação em unir tecnologia e negócios.
+
+📍 Próximos passos
+ Interface gráfica (Swing ou JavaFX)
+
+ Integração com banco de dados (para salvar perfis)
+
+ Versão web com front-end em HTML/CSS
+
+ Análise estatística com Power BI (possível integração de dados gerados)
+
+👨‍💻 Autor
+Felipe Bastos
+Estudante de Sistemas de Informação na FIAP
+Foco em dados, finanças e tecnologia aplicada ao setor bancário
+LinkedIn | GitHub
+
